@@ -1,0 +1,155 @@
+index.html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>فوج نابل 1938</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#071d49;
+    color:white;
+}
+
+/* HERO */
+header{
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') center/cover;
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+header h1{
+    font-size:50px;
+    color:gold;
+}
+
+header p{
+    font-size:20px;
+    margin-top:10px;
+}
+
+.btn{
+    margin-top:20px;
+    padding:12px 25px;
+    background:gold;
+    border:none;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:8px;
+}
+
+/* SECTIONS */
+section{
+    padding:50px 20px;
+    text-align:center;
+}
+
+h2{
+    color:gold;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.card{
+    background:#0b2a66;
+    padding:18px;
+    width:220px;
+    border-radius:12px;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:scale(1.05);
+    background:#123a8a;
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<header>
+    <h1>فوج نابل 1938</h1>
+    <p>معًا نصنع قادة المستقبل منذ 1938</p>
+    <button class="btn">انضم إلينا</button>
+</header>
+
+<!-- ABOUT -->
+<section>
+    <h2>من نحن</h2>
+    <p>
+        فوج نابل 1938 هو أحد أعرق الأفواج الكشفية في تونس،
+        نهدف إلى بناء جيل قيادي من خلال المغامرة، الانضباط، والعمل الجماعي.
+    </p>
+</section>
+
+<!-- TEAMS -->
+<section>
+    <h2>الفرق الكشفية</h2>
+
+    <div class="cards">
+
+        <div class="card">🌿🐣<br><strong>أشبال الزهور</strong></div>
+
+        <div class="card">🌸<br><strong>زهرات النرجس</strong></div>
+
+        <div class="card">🧭⭐<br><strong>فرقة أحمد فاضل المغيربي للكشافين</strong></div>
+
+        <div class="card">🧑‍✈️🌿<br><strong>فرقة هادية لسود للمرشدات</strong></div>
+
+        <div class="card">🏕️<br><strong>العشيرة الأولى جوالة</strong></div>
+
+        <div class="card">🧭✨<br><strong>عشيرة آسيا غلاب للدليلات</strong></div>
+
+    </div>
+</section>
+
+<!-- ACTIVITIES -->
+<section>
+    <h2>أنشطتنا</h2>
+
+    <div class="cards">
+        <div class="card">🏕️ مخيمات</div>
+        <div class="card">🌲 خرجات طبيعية</div>
+        <div class="card">🧭 مغامرات كشفية</div>
+        <div class="card">🛠️ ورشات تدريب</div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section>
+    <h2>تواصل معنا</h2>
+    <p>📍 نابل - تونس</p>
+    <p>📱 Facebook: فوج نابل 1938</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 فوج نابل 1938 - جميع الحقوق محفوظة
+</footer>
+
+</body>
+
+</html>
